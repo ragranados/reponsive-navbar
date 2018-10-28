@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Caja from './components/Caja/Caja';
 
 class App extends Component {
   state = {
@@ -28,6 +29,7 @@ class App extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
         {sideDrawer}
         {backdrop}
+        <Caja />
         <main style={{ marginTop: '64px' }}>
           <p>Contenido de la pagina</p>
         </main>
