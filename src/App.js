@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Toolbar from './components/Toolbar/Toolbar';
-import SideDrawer from './components/SideDrawer/SideDrawer';
-import Backdrop from './components/Backdrop/Backdrop';
-import Caja from './components/Caja/Caja';
+import './index.css';
+//import Toolbar from './components/Toolbar/Toolbar';
+//import SideDrawer from './components/SideDrawer/SideDrawer';
+//import Backdrop from './components/Backdrop/Backdrop';
+import Avatar from './components/AvatarHorizontal/AvatarHorizontal';
 
 class App extends Component {
-  state = {
+  /*state = {
     sideDrawerOpen: false
   };
 
@@ -13,26 +14,19 @@ class App extends Component {
     this.setState((prevState) => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
-  };
+  };*/
 
   render() {
-    let sideDrawer;
+    /*let sideDrawer;
     let backdrop;
 
-    if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
-      backdrop = <Backdrop drawerClickHandler={this.drawerToggleClickHandler}/>;
-    }
+    if (false) {
+      backdrop = <Backdrop/>;
+    }*/
 
     return (
-      <div style={{height:'100%'}}>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-        {sideDrawer}
-        {backdrop}
-        <Caja />
-        <main style={{ marginTop: '64px' }}>
-          <p>Contenido de la pagina</p>
-        </main>
+      <div className="hola">
+        <Avatar />
       </div>
     );
   }

@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja-prueba{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 130px;
+    width: 400px;
+    padding: 1% 1%;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-arr{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-content {
+    align-content: center;
+}
+
+.name{
+    height: 98%;
+    flex: 1;
+    max-width: 60%;
+    font-size: 1.5em;
+}
+
+.img{
+    height: 98%;
+}

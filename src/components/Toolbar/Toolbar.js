@@ -6,7 +6,7 @@ const toolbar = props => (
     <header className="toolbar">
         <nav className="toolbar__navigation">
             <div>
-                <DrawerToggleButton click = {props.drawerClickHandler}/>
+                <DrawerToggleButton drawerClickHandler = {props.drawerClickHandler}/>
             </div>
             <div className="toolbar__logo"> <a href="/" >LOGO</a> </div>
             <div className="spacer"></div>
@@ -18,6 +18,6 @@ const toolbar = props => (
             </div>
         </nav>
     </header>
-);
+); 
 
 export default toolbar;
