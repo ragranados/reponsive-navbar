@@ -3,7 +3,10 @@ import './index.css';
 //import Toolbar from './components/Toolbar/Toolbar';
 //import SideDrawer from './components/SideDrawer/SideDrawer';
 //import Backdrop from './components/Backdrop/Backdrop';
-import Avatar from './components/AvatarHorizontal/AvatarHorizontal';
+//import AvatarHorizontal from './components/AvatarHorizontal/AvatarHorizontal';
+//import AvatarHorizontal from './components/AvatarVertical/AvatarVertical';
+import AvatarVertical from './components/AvatarVertical/AvatarVertical';
+//import AvatarHorizontal from './components/AvatarHorizontal/AvatarHorizontal';
 
 class App extends Component {
   /*state = {
@@ -26,7 +29,7 @@ class App extends Component {
 
     return (
       <div className="hola">
-        <Avatar />
+        <AvatarVertical />
       </div>
     );
   }

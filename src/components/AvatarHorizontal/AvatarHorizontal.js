@@ -3,9 +3,9 @@ import React from 'react';
 import './AvatarHorizontal.css';
 import Image from '../ProfileImg/ProfileImg';
 
-const Avatar = props => (
+const AvatarHorizontal = props => (
 
-    <div className="caja-prueba row justify-arr">
+    <div className="box row justify-arr">
         <div className = "img">
             <a href = "/"> <Image/> </a>
         </div>
@@ -16,4 +16,4 @@ const Avatar = props => (
     </div>
 );
 
-export default Avatar;
+export default AvatarHorizontal;

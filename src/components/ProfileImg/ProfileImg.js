@@ -1,10 +1,9 @@
 import React from 'react';
-
-import './ProfileImg.css';
+import './ProfileImg.css'
 
 const Image = props => (
-        <div className = "img">
-            <img src="img/yo.jpg" className="img" alt="/"></img>
+        <div className = "imagen">
+            <img src="img/yo.jpg" alt="/"></img>
         </div>
 );
 
